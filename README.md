@@ -3,7 +3,7 @@
 This Example shows how hibernate works mapping OneToMany ManyToOne example
 
 
-## One direction
+## Bidirectional 
 http://localhost:8080/greeting
 
 
@@ -11,7 +11,7 @@ Hibernate: insert into person (name) values (?)
 
 Hibernate: insert into address (city, house_number, id_persona, street, zip_code) values (?, ?, ?, ?, ?)
 
-## Bidirectional 
+## One direction
 http://localhost:8080/greeting_uni
 
 
