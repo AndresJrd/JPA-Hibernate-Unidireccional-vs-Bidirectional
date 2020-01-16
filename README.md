@@ -12,7 +12,7 @@ Hibernate: insert into person (name) values (?)
 Hibernate: insert into address (city, house_number, id_persona, street, zip_code) values (?, ?, ?, ?, ?)
 
 ## Bidirectional 
-http://localhost:8080/greeting
+http://localhost:8080/greeting_uni
 
 
 Hibernate: insert into person_uni (name) values (?)
